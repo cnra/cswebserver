@@ -11,7 +11,7 @@ namespace WebServerTest
     {
         static void Main(string[] args)
         {
-            WebServer ws = new WebServer(SendResponse, "http://localhost:8080/test/");
+            WebServer ws = new WebServer(SendResponse, "http://*:8080/test/");
             ws.Run();
             Console.WriteLine("A simple webserver. Press a key to quit.");
             Console.ReadKey();
