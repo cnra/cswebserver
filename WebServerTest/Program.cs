@@ -7,6 +7,14 @@ using System.Threading.Tasks;
 
 namespace WebServerTest
 {
+    /*
+     access denied hatasi icin izin eklenmeli
+     netsh http add urlacl url=http://*:8080/test/ user=desktop-p435oth\user
+
+        whoami ile kullanici adi ogrenilebilir
+        desktop-p435oth\user
+
+         */
     class Program
     {
         static void Main(string[] args)
